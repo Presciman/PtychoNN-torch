@@ -1,4 +1,4 @@
-name: bert-pytorch
+name: ptynn
 channels:
   - pytorch
   - defaults
@@ -13,11 +13,9 @@ dependencies:
   - cudatoolkit=11.0
   - pytorch=1.7.1
   - tensorboard
+  - scikit-image
   - scikit-learn
-  - boto3
+  - mpi4py
   - requests
-  - six
-  - nltk
-  - html2text
-  - progressbar
+  - scikit-image
 
